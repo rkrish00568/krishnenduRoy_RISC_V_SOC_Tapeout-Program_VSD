@@ -1,23 +1,40 @@
 
-# RISC-V Reference SoC Tapeout Program VSD
+# 🖥️ RISC-V Reference SoC Tapeout Program — VSD  
 
-## Tools Installation
+<div align="center">
 
-#### <ins>All the instructions for installation of required tools can be found here:</ins>
+[![RISC-V](https://img.shields.io/badge/RISC--V-SoC-blue?style=for-the-badge&logo=riscv)](https://riscv.org/)  
+[![VSD](https://img.shields.io/badge/VSD-Program-orange?style=for-the-badge)](https://vsdiat.vlsisystemdesign.com/)  
+![Participants](https://img.shields.io/badge/Participants-3500+-success?style=for-the-badge)  
+![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04+-informational?style=for-the-badge&logo=ubuntu)  
+![Tools](https://img.shields.io/badge/EDA-OpenSource-blueviolet?style=for-the-badge)  
 
-### **System Requirements**
-- 6 GB RAM
-- 50 GB HDD
-- Ubuntu 20.04 or higher
-- 4 vCPU
+</div>
 
-### **Resizing the Ubuntu window to fit the screen**
+Welcome to my journey through the **VSD RISC-V SoC Tapeout Program** 🚀  
+This repository will serve as a **week-by-week logbook** where I track my learning, completed tasks, and overall growth.  
+
+The program focuses on taking a design from **RTL all the way to GDSII** using open-source EDA tools, as part of India’s **largest collaborative RISC-V initiative**.  
+
+---
+
+## 📅 Week 0 — Environment Setup & Tools  
+
+### ⚙️ System Requirements
+- Minimum **6 GB RAM**  
+- **50 GB HDD space**  
+- **Ubuntu 20.04+**  
+- **4 vCPUs**  
+
+---
+
+### 🖥️ Preparing Ubuntu Display (Guest Additions)
 ```bash
-$ sudo apt update
-$ sudo apt install build-essential dkms linux-headers-$(uname -r)
-$ cd /media/spatha/VBox_GAs_7.1.8/
-$ ./autorun.sh
-```
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+cd /media/$USER/VBox_GAs_*/   # Adjust version if different
+./autorun.sh
+
 
 ### **TOOL CHECK**
 
