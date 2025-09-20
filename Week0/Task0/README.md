@@ -147,11 +147,9 @@ sudo make install
 
 <div align="center">
 
-**📂 Repository:** [RTL2GDS_Alchemy](https://github.com/TheVoltageVikingRam/RTL2GDS_Alchemy)  
-**👨‍💻 Author:** [TheVoltageVikingRam](https://github.com/TheVoltageVikingRam)  
+
+**👨‍💻 Author:** [Krishnendu_Roy](https://github.com/rkrish00568)  
 **📚 Program:** VLSI System Design (VSD)
 
-[![Follow](https://img.shields.io/github/followers/TheVoltageVikingRam?style=social)](https://github.com/TheVoltageVikingRam)
-[![Stars](https://img.shields.io/github/stars/TheVoltageVikingRam/RTL2GDS_Alchemy?style=social)](https://github.com/TheVoltageVikingRam/RTL2GDS_Alchemy)
 
 </div>
