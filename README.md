@@ -20,7 +20,7 @@ The program focuses on taking a design from **RTL all the way to GDSII** using o
 
 | Task | Description | Status |
 |------|-------------|---------|
-| [**Task 0**](Week0/Task0/README.md) | 🛠️ Installed **Icarus Verilog**, **Yosys**, and **GTKWave** for simulation & synthesis | ✅ Completed |  
+| [**Task 0**](Week0/Task0/README.md) | 🛠️ Installed **Icarus Verilog**, **Yosys**, **GTKWave**,**Ngspice** and **Magic** for simulation & synthesis | ✅ Completed |  
 
 ### 🌟 Key Takeaways from Week 0
 - Successfully set up the required open-source EDA toolchain.  
