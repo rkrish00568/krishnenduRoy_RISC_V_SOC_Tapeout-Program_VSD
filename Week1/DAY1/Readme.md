@@ -43,6 +43,7 @@ A **testbench** is a simulation environment that applies various inputs to your 
 
 - Both the design and testbench are provided as input to iverilog.
 - The simulator produces a `.vcd` file for waveform viewing in GTKWave.
+![verilog flow](images/1.png)
 
 ---
 
