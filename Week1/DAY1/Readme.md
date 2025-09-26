@@ -33,6 +33,7 @@ The **design** is your Verilog code describing the intended logic functionality.
 
 A **testbench** is a simulation environment that applies various inputs to your design and checks if the outputs are correct.
 
+![testbench](images/2.png)
 
 ---
 
