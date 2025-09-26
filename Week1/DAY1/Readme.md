@@ -57,14 +57,7 @@ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
 
-###  Step 2: Install Required Tools
-
-```shell
-sudo apt install iverilog
-sudo apt install gtkwave
-```
-
-###  Step 3: Simulate the Design
+###  Step 2: Simulate the Design
 
 Compile the design and testbench:
 
