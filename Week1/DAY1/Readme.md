@@ -22,12 +22,13 @@ This session introduces you to **Verilog RTL design, simulation, and synthesis**
 ---
 
 ## 2️⃣ Lab: Simulate a Multiplexer using Verilog
-**Example: 2:1 Multiplexer**
+Let’s simulate a simple **2-to-1 multiplexer** using **iverilog**!  
 
-```verilog
-module mux2to1 (
-  input wire a, b, sel,
-  output wire y
-);
-  assign y = sel ? b : a;
-endmodule
+---
+
+### 🔹 Step 1: Clone the Workshop Repository
+```bash
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+
+### 🔹 Step 2: Install Required Tools
