@@ -79,7 +79,7 @@ View the waveform:
 gtkwave tb_good_mux.vcd
 ```
 
-![block](images/block.png)
+![wave](images/wave.png)
 
 
 ---
@@ -171,9 +171,7 @@ Let’s synthesize the `good_mux` design using Yosys!
     show
     ```
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4b3a9939-92d0-4efc-ad69-e96faf19e6c3" alt="Yosys Gate-level Schematic" width="70%">
-</div>
+![block](images/block.png)
 
 ---
 
