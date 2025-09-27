@@ -100,8 +100,10 @@ verilog code::
 - Can increase memory usage and netlist complexity.
 
 **Example:**
+![flat](images/v_dot.png)
+verilog code::
+![flat_v](images/f_v.png)
 
-![Screenshot_2025-05-29_19-20-47](https://github.com/user-attachments/assets/e1d94a5d-d3f7-41ee-8e69-ca0c05be81a3)
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
@@ -122,6 +124,10 @@ For large projects, it is often more efficient to use **submodule synthesis**.
   2. Reuse the same netlist for every instance.  
 
 👉 This saves **time and resources**, since the synthesis tool doesn’t re-optimize identical logic again and again.
+
+Example: for module 1
+![sub](images/s_dot.png)
+
 
 ---
 
