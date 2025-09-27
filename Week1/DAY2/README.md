@@ -250,7 +250,7 @@ endmodule
 # for async_set
 ![async_set](images/async_set.png)
 # for sync_res
-![sync_res](images/aync_res.png)
+![sync_res](images/sync_res.png)
 
 
 ### Synthesis with Yosys
