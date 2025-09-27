@@ -100,7 +100,7 @@ verilog code::
 - Can increase memory usage and netlist complexity.
 
 **Example:**
-![flat](images/v_dot.png)
+![flat](images/f_dot.png)
 verilog code::
 ![flat_v](images/f_v.png)
 
