@@ -26,20 +26,40 @@ This naming convention clarifies which process, voltage, and temperature conditi
 
 ---
 
-### Opening and Exploring the .lib File
+###Exploring the .lib File
 
-To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
+A `.lib` (Liberty) file is used in digital VLSI design to describe the **characterization of standard cells** (logic gates, flip-flops, etc.).  
+It provides **functional, timing, and power information** about each cell so that EDA tools (like synthesis, STA, and power analysis) can use them.
 
-1. **Install a text editor:**
-   ```shell
-   sudo apt install gedit
-   ```
-2. **Open the file:**
-   ```shell
-   gedit sky130_fd_sc_hd__tt_025C_1v80.lib
-   ```
- ![Screenshot_2025-05-29_11-43-13](https://github.com/user-attachments/assets/0c31ddf8-8a95-44a4-acaa-e1c5f0518425)
+---
 
+## 📌 Key Information Inside a `.lib` File
+
+### 1. General Cell Information
+- **Cell name and type** (e.g., `NAND2_X1`, `DFF_X2`)
+- **Area** (physical area of the cell)
+- **Cell leakage power** (static power when inputs are fixed)
+- **Drive strength**
+
+### 2. Pin Information
+- **Direction**: input / output / inout
+- **Capacitance**: input pin load
+- **Function**: Boolean logic equation (e.g., `!(A & B)` for NAND2)
+- **Power information**: switching and internal power
+
+### 3. Timing Information
+- **Propagation delay** (input → output)
+- **Transition time** (rise/fall)
+- **Setup / Hold time** (for sequential cells)
+- **Clock-to-Q delay** (for flip-flops/latches)
+
+### 4. Power Information
+- **Leakage power**: static power
+- **Internal power**: power due to internal switching
+- **Switching power**: dynamic power due to load capacitance
+- **State-dependent power**: varies with input states
+
+---
 
 ---
 
