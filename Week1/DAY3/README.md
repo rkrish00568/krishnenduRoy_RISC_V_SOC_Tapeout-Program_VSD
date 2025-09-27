@@ -170,25 +170,17 @@ module opt_check4 (input a , input b , input c , output y);
 ---
 
 ### Lab 5
+Multiple module Optimisation
 
 ![Lab 5 Output](images/mul_mod_opt.png)
 
 ---
 
 ### Lab 6
-
+Multiple module Optimisation2
 
 ![Lab 6 Output](images/mul_mod_opt2.png)
 
 ---
 
-## Summary
-- **Focus:** Optimization techniques for combinational and sequential circuits in digital design, with practical Verilog labs.
-  
-- **Topics Covered:**
-  1. **Constant Propagation:** Replacing variables with constant values to simplify logic and improve circuit efficiency.
-  2. **State Optimization:** Reducing states and optimizing encoding in finite state machines to use less logic and power.
-  3. **Cloning:** Duplicating logic cells/modules to improve timing and balance load.
-  4. **Retiming:** Repositioning registers in a circuit to enhance performance without altering its function.
 
-- **Labs:** Six practical Verilog labs illustrate these concepts, including examples of combinational logic optimizations and D flip-flop behaviors, each with code snippets and output images.
