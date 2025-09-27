@@ -191,17 +191,29 @@ endmodule
 - **Asynchronous reset**: Overrides clock, setting q to 0 immediately.
 - **Edge-triggered**: Captures d on rising clock edge if reset is low.
 
-### Asynchronous Set D Flip-Flop
+### D Flip-Flop with Asynchronous + Synchronous Reset (Verilog)
 
 ```verilog
-module dff_async_set (input clk, input async_set, input d, output reg q);
-  always @ (posedge clk, posedge async_set)
-    if (async_set)
-      q <= 1'b1;
-    else
-      q <= d;
+//===========================================
+// D Flip-Flop with Asynchronous + Synchronous Reset
+//===========================================
+module dff_async_sync_reset (
+    input  wire clk,
+    input  wire async_reset, // asynchronous reset (highest priority)
+    input  wire sync_reset,  // synchronous reset
+    input  wire d,
+    output reg  q
+);
+    always @(posedge clk or posedge async_reset) begin
+        if (async_reset)        // async reset has top priority
+            q <= 1'b0;
+        else if (sync_reset)    // sync reset checked on clock edge
+            q <= 1'b0;
+        else
+            q <= d;
+    end
 endmodule
-```
+
 - **Asynchronous set**: Overrides clock, setting q to 1 immediately.
 
 ### Synchronous Reset D Flip-Flop
