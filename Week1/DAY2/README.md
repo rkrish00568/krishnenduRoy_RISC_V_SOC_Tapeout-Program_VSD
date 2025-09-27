@@ -194,9 +194,7 @@ endmodule
 ### D Flip-Flop with Asynchronous + Synchronous Reset (Verilog)
 
 ```verilog
-//===========================================
-// D Flip-Flop with Asynchronous + Synchronous Reset
-//===========================================
+
 module dff_async_sync_reset (
     input  wire clk,
     input  wire async_reset, // asynchronous reset (highest priority)
@@ -213,7 +211,7 @@ module dff_async_sync_reset (
             q <= d;
     end
 endmodule
-
+```
 - **Asynchronous set**: Overrides clock, setting q to 1 immediately.
 
 ### Synchronous Reset D Flip-Flop
