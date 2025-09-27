@@ -311,7 +311,9 @@ endmodule
   - Improves **timing** (shifts are nearly zero delay).
  
 ---
-#Example:MUL2(multiply by 2)
+
+
+## Example(multiply by 2)
 ![synchres](images/mul2.png)
 ![synchres](images/mul2veri.png)
 
