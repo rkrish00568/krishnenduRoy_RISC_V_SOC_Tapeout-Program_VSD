@@ -143,7 +143,7 @@ endmodule
 **Functionality:**  
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
-![Lab 3 Output](images/opt_chec3.png)
+![Lab 3 Output](images/opt_check3.png)
 
 ---
 
@@ -165,55 +165,20 @@ module opt_check4 (input a , input b , input c , output y);
 - Logic simplifies to:  
   `y = a ? c : !c`
 
-![Lab 4 Output](https://github.com/user-attachments/assets/08d1e447-78c6-47c4-8c99-239645b38617)
+![Lab 4 Output](images/opt_check4.png)
 
 ---
 
 ### Lab 5
 
-Verilog code:
-
-```verilog
-module dff_const1(input clk, input reset, output reg q);
-always @(posedge clk, posedge reset)
-begin
-	if(reset)
-		q <= 1'b0;
-	else
-		q <= 1'b1;
-end
-endmodule
-```
-
-**Functionality:**
-- D flip-flop with:
-  - Asynchronous reset to 0
-  - Loads constant `1` when not in reset
-
-![Lab 5 Output](https://github.com/user-attachments/assets/a42fac06-a092-4efc-be39-33b263caaaa1)
+![Lab 5 Output](images/mul_mod_opt.png)
 
 ---
 
 ### Lab 6
 
-Verilog code:
 
-```verilog
-module dff_const2(input clk, input reset, output reg q);
-always @(posedge clk, posedge reset)
-begin
-	if(reset)
-		q <= 1'b1;
-	else
-		q <= 1'b1;
-end
-endmodule
-```
-
-**Functionality:**
-- D flip-flop always sets output `q` to `1` (regardless of reset or clock).
-
-![Lab 6 Output](https://github.com/user-attachments/assets/ae45f7db-0a7f-4256-b43b-01cc4a1588f7)
+![Lab 6 Output](images/mul_mod_opt2.png)
 
 ---
 
