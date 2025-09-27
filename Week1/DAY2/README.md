@@ -283,8 +283,12 @@ endmodule
    ```shell
    show
    ```
-![Screenshot_2025-05-30_11-03-00](https://github.com/user-attachments/assets/fa8337df-e0ec-4b01-9b18-5910768e4421)
-
+# Asynch Reset
+![asy_res](images/asy_res.png)
+# Asynch Set
+![asses](images/asses.png)
+# Sync Reset
+![synchres](images/synchres.png)
 
 ---
 ## Summary
