@@ -158,6 +158,21 @@ Instead, use a **divide-and-conquer** approach:
 
 ---
 
+
+### Why Flip-Flops (FFs) Instead of Only Combinational Circuits?
+
+- **Combinational circuits**:  
+  - Output changes immediately with input changes.  
+  - Causes **propagation delay** (output settles only after logic levels propagate).  
+  - May produce **glitches** (spurious transitions) due to unequal path delays.  
+
+- **Need for storage**:  
+  - To stop glitches from directly propagating, we use an element that **stores** the stable value.  
+  - **Flip-Flops (FFs) or Latches** are used to hold data until the next clock edge.  
+
+👉 This makes the system **synchronous**, avoids glitches being sampled, and ensures reliable operation.
+
+
 ## Flip-Flop Coding Styles
 
 Flip-flops are fundamental sequential elements in digital design, used to store binary data. Below are efficient coding styles for different reset/set behaviors.
