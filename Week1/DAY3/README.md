@@ -71,6 +71,19 @@ Boolean optimization analyzes logic expressions and removes redundancy. Equivale
 - **Resource Optimization:** Saves area and power consumption.  
 - **Scalability:** Easier to route and integrate in large designs.  
 
+## 6. Sequential Constant Propagation
+In VLSI design, sequential constant propagation extends the idea of constant propagation to **sequential circuits** (those with flip-flops and memory elements). If a register or flip-flop always holds a constant value, it can be eliminated or replaced with that constant.  
+
+**How it works:**  
+- Tools analyze the **sequential behavior** across clock cycles.  
+- If a flip-flop is proven to always be `0` or `1`, its output is replaced by that constant.  
+- The flip-flop and its driving logic are removed, simplifying the design.  
+
+**Benefits:**  
+- **Reduced Complexity:** Removes unnecessary sequential elements.  
+- **Performance Improvement:** Shorter paths, reduced clock load.  
+- **Resource Optimization:** Saves area and dynamic power by reducing toggling.  
+- **Cleaner Design:** Helps in state machine simplification.  
 
 ## 5. Labs on Optimization
 
