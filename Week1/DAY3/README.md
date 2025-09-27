@@ -102,12 +102,12 @@ endmodule
   - If `a` is true, `y` is assigned the value of `b`.
   - If `a` is false, `y` is 0.
 
-Follow the steps from [Day 1 Synthesis Lab](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1#6-synthesis-lab-with-yosys) and add the following between `abc -liberty` and `synth -top`:
+Follow the steps from Day 1 Synthesis Lab and add the following between `abc -liberty` and `synth -top`:
 ```shell
 opt_clean -purge
 ```
 
-![Lab 1 Output](https://github.com/user-attachments/assets/4d224d8d-f6f5-4a37-9732-ab570b64e31e)
+![Lab 1 Output](images/opt_check.png)
 
 ---
 
@@ -126,7 +126,7 @@ endmodule
   - `y = 1` if `a` is true.
   - `y = b` if `a` is false.
 
-![Lab 2 Output](https://github.com/user-attachments/assets/59545745-8a8b-4afd-b4d5-0a3ad1d5b80e)
+![Lab 2 Output](images/opt_check2.png)
 
 ---
 
@@ -143,7 +143,7 @@ endmodule
 **Functionality:**  
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
-![Lab 3 Output](https://github.com/user-attachments/assets/157b16d3-cecd-441a-aacf-bae296910886)
+![Lab 3 Output](images/opt_chec3.png)
 
 ---
 
