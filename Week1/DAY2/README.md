@@ -26,7 +26,7 @@ This naming convention clarifies which process, voltage, and temperature conditi
 
 ---
 
-###Exploring the .lib File
+# Understanding `.lib` Files in VLSI Design
 
 A `.lib` (Liberty) file is used in digital VLSI design to describe the **characterization of standard cells** (logic gates, flip-flops, etc.).  
 It provides **functional, timing, and power information** about each cell so that EDA tools (like synthesis, STA, and power analysis) can use them.
@@ -58,8 +58,6 @@ It provides **functional, timing, and power information** about each cell so tha
 - **Internal power**: power due to internal switching
 - **Switching power**: dynamic power due to load capacitance
 - **State-dependent power**: varies with input states
-
----
 
 ---
 
