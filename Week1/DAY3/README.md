@@ -59,6 +59,19 @@ Retiming is a design optimization technique that improves circuit performance by
 
 ---
 
+## 5. Boolean Optimisation
+In VLSI design, boolean optimization is a technique used to simplify logic expressions by applying boolean algebra rules, Karnaugh maps (K-maps), or logic minimization algorithms. This reduces the overall hardware complexity.  
+
+**How it works:**  
+Boolean optimization analyzes logic expressions and removes redundancy. Equivalent but simpler logic is generated, which reduces the number of gates and interconnections.  
+
+**Benefits:**  
+- **Reduced Complexity:** Fewer gates and simpler interconnections.  
+- **Performance Improvement:** Shorter critical paths, faster logic.  
+- **Resource Optimization:** Saves area and power consumption.  
+- **Scalability:** Easier to route and integrate in large designs.  
+
+
 ## 5. Labs on Optimization
 
 ### Lab 1
