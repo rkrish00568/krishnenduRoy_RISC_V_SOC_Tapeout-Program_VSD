@@ -310,12 +310,12 @@ endmodule
   - Saves **power** (fewer toggling gates).
   - Improves **timing** (shifts are nearly zero delay).
  
-
-**Example:MUL2(multiply by 2)**
+---
+#Example:MUL2(multiply by 2)
 ![synchres](images/mul2.png)
 ![synchres](images/mul2veri.png)
 
 
----
+
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
