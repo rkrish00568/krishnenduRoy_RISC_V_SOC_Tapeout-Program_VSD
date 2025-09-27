@@ -245,7 +245,12 @@ endmodule
    ```shell
    gtkwave tb_dff_asyncres.vcd
    ```
-![Screenshot_2025-05-30_10-45-13](https://github.com/user-attachments/assets/1176581e-fd6c-4b71-8af5-5d7d5f6dbcda)
+# for async_res
+![async_res](images/async_res.png)
+# for async_set
+![async_set](images/async_set.png)
+# for sync_res
+![sync_res](images/aync_res.png)
 
 
 ### Synthesis with Yosys
