@@ -290,6 +290,27 @@ endmodule
 # Sync Reset
 ![synchres](images/synchres.png)
 
+### 🔧 Interesting Optimizations in Digital Design
+
+- **Multiplying by 2, 4, 8...**
+  - Instead of using a multiplier, use **bit-shifts**.
+  - `x * 2` → `x << 1`
+  - `x * 4` → `x << 2`
+  - `x * 8` → `x << 3`
+  - Much faster and smaller in hardware (just wiring, no logic).
+
+- **Dividing by powers of 2**
+  - `x / 2` → `x >> 1`
+  - `x / 4` → `x >> 2`
+  - `x / 8` → `x >> 3`
+  - Avoids costly division hardware.
+
+- **Why important?**
+  - Saves **area** (no multipliers/dividers).
+  - Saves **power** (fewer toggling gates).
+  - Improves **timing** (shifts are nearly zero delay).
+
+
 ---
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
