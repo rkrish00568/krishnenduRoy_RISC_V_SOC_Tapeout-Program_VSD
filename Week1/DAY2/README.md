@@ -78,7 +78,9 @@ It provides **functional, timing, and power information** about each cell so tha
 - Reporting can require additional configuration.
 
 **Example:**
-![Screenshot_2025-05-29_19-04-48](https://github.com/user-attachments/assets/91f0244a-2c41-42ea-be6f-468880c3af33)
+![hier](images/h_dot.png)
+verilog code::
+![hier_v](images/h_v.png)
 
 
 ---
