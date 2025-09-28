@@ -157,7 +157,8 @@ always @ (*) begin
 end
 ```
 
-![lab4](https://github.com/user-attachments/assets/4c2ede06-0605-4ff0-99cb-fc89844b89e4)
+
+![lab4](images/bad_mux.png)
 
 ---
 
@@ -166,7 +167,7 @@ end
 Perform GLS on the `bad_mux`.  
 Expect simulation mismatches or warnings due to above issues.
 
-![lab5](https://github.com/user-attachments/assets/2e698404-27b5-4c4a-a811-41b5fc13db77)
+![lab4](images/bad_mux2.png)
 
 ---
 
