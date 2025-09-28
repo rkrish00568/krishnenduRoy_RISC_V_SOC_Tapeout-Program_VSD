@@ -217,8 +217,17 @@ for dff_const4
 
 ---
 
+
+
+
 ## Lab 5:  
 for dff_const5
 ![Lab 5 Output](images/dff_const5_boz.png)   
 
 
+
+## Counter Optimisation
+
+
+![Counter](images/counter_opt_box.png)  
+![Counter](images/counter_opt_box2.png)  
