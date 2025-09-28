@@ -202,7 +202,7 @@ for dff_const2
 
 ---
 
-## Lab 3: Register Merging  
+## Lab 3:   
 for dff_const3
  
 ![Lab 3 Output](images/dff_const3_dot.png)  
@@ -210,14 +210,14 @@ for dff_const3
 
 ---
 
-## Lab 4: Retiming  
+## Lab 4:
 for dff_const4
 ![Lab 4 Output](images/dff_const4_box.png)  
 
 
 ---
 
-## Lab 5: Clock Gating  
+## Lab 5:  
 for dff_const5
 ![Lab 5 Output](images/dff_const5_boz.png)   
 
