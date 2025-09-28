@@ -100,7 +100,9 @@ endmodule
 ```
 - **Function:** `y = i1` if `sel = 1`; else `y = i0`.
 
-![lab1](https://github.com/user-attachments/assets/3f5eb05a-1861-4bb8-940c-6ff9f2af87fb)
+![lab1](images/ternary_ope_mux_box.png)
+![lab1](images/ternary_op_mux.png)
+![lab1](images/ter_op_mux.png)
 
 ---
 
