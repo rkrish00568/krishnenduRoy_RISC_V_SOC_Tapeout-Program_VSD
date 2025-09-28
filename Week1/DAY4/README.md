@@ -197,7 +197,7 @@ always @ (*) begin
 end
 ```
 
-![lab6](https://github.com/user-attachments/assets/42cac594-0008-4c7b-b415-43e6565b6081)
+![lab5](images/blocking_cav.png)
 
 ---
 
@@ -205,7 +205,9 @@ end
 
 Synthesize the corrected version of the module and observe the results.
 
-![lab7](https://github.com/user-attachments/assets/833bfacc-3b76-40fa-814c-47f0d783a6e0)
+![lab5](images/block_dot.png)
+# GLS of Blocking Caveat
+![lab5](images/block_cat2.png)
 
 ---
 
