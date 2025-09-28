@@ -87,13 +87,13 @@ always @(*) begin
 end
 endmodule
 ```
-![in_comp_if](https://github.com/user-attachments/assets/91d1cc1d-bb3a-4ea8-a272-363414777868)
+![in_comp_if](images/tb_inc_if.png)
 
 ---
 
 ### Lab 2: Synthesis Result of Lab 1
 
-![incomp_synth](https://github.com/user-attachments/assets/691045e7-39e0-4e6c-98bd-511b501fbe35)
+![incomp_synth](images/incom_if.png)
 
 ---
 
@@ -109,13 +109,13 @@ always @(*) begin
 end
 endmodule
 ```
-![icomp2](https://github.com/user-attachments/assets/2f614956-e4af-4d29-80ae-13a167e7831d)
+![icomp2](images/tb_incom_if2.png)
 
 ---
 
 ### Lab 4: Synthesis Result of Lab 3
 
-![incomp2synth](https://github.com/user-attachments/assets/880ff7bb-23fb-4362-bf8f-a2494a854b53)
+![incomp2synth](images/incom_if2.png)
 
 ---
 
@@ -132,13 +132,13 @@ always @(*) begin
 end
 endmodule
 ```
-![compcase](https://github.com/user-attachments/assets/cfe97c45-a487-4f06-b4a2-74b3a61bee14)
+![compcase](images/tb_com_case.png)
 
 ---
 
 ### Lab 6: Synthesis Result of Lab 5
 
-![compcase_synth](https://github.com/user-attachments/assets/8c871511-6e55-4e80-be11-86e9efd87cad)
+![compcase_synth](images/comp_case.png)
 
 ---
 
@@ -160,7 +160,7 @@ always @(*) begin
 end
 endmodule
 ```
-![badcase](https://github.com/user-attachments/assets/4ccf37aa-5502-4750-bedb-9b2ec0748a53)
+![badcase](images/tb_bad_case.png)
 
 ---
 
@@ -187,9 +187,9 @@ always @(*) begin
 end
 endmodule
 ```
-![Screenshot_2025-05-28_12-39-30](https://github.com/user-attachments/assets/3f6068f3-726d-4192-b3cd-f88b3611e752)
+![partial_case](images/par_case.png)
 
-> **Note:** Steps to perform the above labs are shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
+> **Note:** Steps to perform the above labs are shown in Day 1.
 
 ---
 
@@ -275,7 +275,7 @@ always @(*) begin
 end
 endmodule
 ```
-![mux_generate](https://github.com/user-attachments/assets/80789638-c349-44a9-92f4-7597d5925c63)
+![mux_generate](images/tb_mux_gen.png)
 
 ---
 
@@ -305,7 +305,7 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-case](https://github.com/user-attachments/assets/1836a255-e260-47de-9a8e-45899b19fc03)
+![demux-case](images/tb_demux_case.png)
 
 ---
 
@@ -330,7 +330,7 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-generate](https://github.com/user-attachments/assets/a5a2c004-a16f-44cd-8d80-c23f1c932e6c)
+![demux-generate](images/tb_demux_gen.png)
 
 ---
 
@@ -364,11 +364,11 @@ module fa (input a, input b, input c, output co, output sum);
     assign {co, sum} = a + b + c;
 endmodule
 ```
-![rca_org](https://github.com/user-attachments/assets/1d8876f9-e303-4a73-945e-97756a37bb73)
+![rca_org](images/tb_rca.png)
 
 ---
 
-> **Note:** Steps to perform the above labs are already shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
+> **Note:** Steps to perform the above labs are already shown in Day 1.
 
 ---
 
