@@ -101,7 +101,6 @@ endmodule
 - **Function:** `y = i1` if `sel = 1`; else `y = i0`.
 
 
-![lab1](images/ternary_op_mux.png)
 ![lab1](images/ter_op_mux.png)
 
 ---
@@ -124,7 +123,8 @@ Use this command (adjust paths as needed):
 iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v testbench.v
 ```
 
-![lab3](https://github.com/user-attachments/assets/9acf45b3-2e42-4ac1-88ae-b4a494cc8d87)
+
+![lab3](images/ternary_op_mux.png)
 
 ---
 
