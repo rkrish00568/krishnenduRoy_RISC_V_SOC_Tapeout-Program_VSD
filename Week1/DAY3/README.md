@@ -182,5 +182,43 @@ Multiple module Optimisation2
 ![Lab 6 Output](images/mul_mod_opt2.png)
 
 ---
+# Sequential Optimization of DFFs  
+
+Sequential optimization deals with circuits containing **flip-flops (FFs)** and other memory elements. Optimizing these elements reduces **area, power, and timing delays** while keeping functionality intact.  
+
+---
+
+## Lab 1: Constant DFF Removal 1 
+
+
+![Lab 1 Output](images/dff_const1_dot.png)  
+![Lab 1 Output](images/tb_dff_const1.png)  
+---
+
+## Lab 2:  
+for dff_const2
+![Lab 2 Output](images/dff_const2_dot.png)  
+![Lab 2 Output](images/tb_dff_const2.png)  
+
+---
+
+## Lab 3: Register Merging  
+for dff_const3
+ 
+![Lab 3 Output](images/dff_const3_dot.png)  
+![Lab 3 Output](images/tb_dff_const33.png)   
+
+---
+
+## Lab 4: Retiming  
+for dff_const4
+![Lab 4 Output](images/dff_const4_box.png)  
+
+
+---
+
+## Lab 5: Clock Gating  
+for dff_const5
+![Lab 5 Output](images/dff_const5_boz.png)   
 
 
