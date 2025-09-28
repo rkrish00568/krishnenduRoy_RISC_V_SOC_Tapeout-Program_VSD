@@ -100,7 +100,7 @@ endmodule
 ```
 - **Function:** `y = i1` if `sel = 1`; else `y = i0`.
 
-![lab1](images/ternary_ope_mux_box.png)
+
 ![lab1](images/ternary_op_mux.png)
 ![lab1](images/ter_op_mux.png)
 
@@ -111,7 +111,7 @@ endmodule
 Synthesize the above MUX using Yosys.  
 _Follow the standard Yosys synthesis flow._
 
-![lab2](https://github.com/user-attachments/assets/7a0cdc7c-cbbd-4943-bd3d-130a0d66b9b1)
+![lab2](images/ternary_ope_mux_box.png)
 
 ---
 
